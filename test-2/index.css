@@ -1,0 +1,57 @@
+/* *{
+    background-color: rgb(170, 220, 220);
+   
+} */
+ul{
+    margin-left: 250px;
+    margin-top: 25px;
+    font-size: large;
+    font-weight: 800;
+}
+ul li{
+    margin-left: 50px;
+    display: inline;
+    padding: 10px;
+}
+.about h2{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 80px;
+}
+.about p{
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    background-color: rgb(194, 155, 155);
+}
+.main .left,.right{
+    align-items: center;
+    justify-content: center;
+}
+.main .left{
+    margin-right: 30px;
+}
+.contact{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 30px 70px;
+    padding: 20px;
+}
+.gap{
+    margin: 15px;
+}
+button{
+    margin-left: 32px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+}
+footer i{
+    margin: 5px;
+}
