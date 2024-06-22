@@ -1,0 +1,15 @@
+.me{
+    color: red;
+}
+p.you{
+    color:greenyellow;
+    background-color: olivedrab;
+}
+.my-element {
+    background-image: url('../image/dog-7206321_640.jpg');
+    height: 500px;
+    width: 100%;
+    
+    background-repeat: repeat-x; /* This prevents the image from repeating */
+    background-position: center; /* This centers the image within the element */
+}
