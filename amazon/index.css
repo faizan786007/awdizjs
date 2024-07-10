@@ -16,6 +16,7 @@
     width: 22%;
     height: 80%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     
 }
@@ -306,6 +307,78 @@ input:focus {
 .rating span{
     color: rgb(193, 193, 20);
     /* margin-left: -7px; */
+}
+#shortMenu{
+    display: none;
+}
+.profile{
+    display: none;
+}
+.login{
+    display: none;
+}
+@media  screen and (min-width:350px) and (max-width:550px) {
+    #centerDiv{
+        display: none;
+    }
+    #addressDiv{
+        display: none;
+    }
+    #shortMenu{
+        display: block;
+
+        align-items: center;
+    }
+    #leftDiv{
+        width: 35%;
+        /* border: 1px solid red; */
+        justify-content: space-around;
+    }
+    #logoDiv{
+        width: 50%;
+    }
+    #lang,#return,#account{
+        display: none;
+    } 
+    #cart p{
+        display: none;
+    }
+    .profile{
+        display: block;
+    }
+    .login{
+        display: block;
+    }
+    #rightDiv{
+        width: 30%;
+    }
+    /* #menuBar>div:nth-child(even){
+        display: none;
+    }
+    #menuBar>div:nth-child(odd){
+    font-size: 8px;
+    padding: 2px;
+    } */
+     #menuBar,.menuBarLight,.resultSearch,.left{
+        display: none;
+     }
+     .right{
+        width: 100%;
+     }
+     .products{
+        width: 40%;
+        /* height: 100px; */
+     }
+     
+     #describe{
+        font-size: 10px;
+     }
+     .img-ref{
+        width: 40%;
+     }
+     .rating span{
+        font-size: 10px;
+     }
 }
 
 
