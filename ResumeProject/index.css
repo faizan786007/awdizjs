@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 75vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    
+    background-image:url('../image/Is-an-Apple-Mac-Laptop-Good-for-Learning-Programming.jpg')
+
+}
+#nav-bar{
+    width: 100%;
+     padding-top: 1.5%;
+    /* border: 1px solid black; */
+}
+#nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+
+    
+}
+#nav-bar ul li{
+    display: inline-block;
+    margin-left: 2.2em;
+    font-size: 1.5em;
+    
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+#nav-bar ul li a:hover{
+    color: rgb(226, 67, 67);
+}
+.social-media-container{
+    /* border: 1px solid white; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2em;
+}
+.font-size{
+   font-size: 1.4em;
+   color: white;
+   font-weight: bold;
+   padding-bottom: 1em;
+   word-spacing: 1em;
+}
+.icon i{
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 1em;
+    /* border-radius: 50%; */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+section:nth-child(2n){
+    background-color: white;
+}
+section:nth-child(2n+1)
+{
+    background-color: rgb(191, 174, 174);
+}
+
+#about{
+    /* border: 1px solid black; */
+}
+
+.image{
+    /* border: 1px solid black; */
+    height: 16rem;
+    width: 16rem;
+    position: relative;
+    margin-top: -10rem;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+.content{
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.top-detail{
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 5rem;
+    font-size: 2em;
+}
+.skills-container{
+    width: 75%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skills-progress{
+    width: 11rem;
+	height: 2.2rem;
+    border: 1px solid black;
+    border-radius: 18px;
+    margin: 40px;
+}
+.skills-percent{
+    height: inherit;
+    width:8rem ;
+    
+    border-radius: 18px 0 0 18px;
+    background-color: rgb(115, 213, 82);
+}
+.skills-percent span{
+    margin-left: 35px;
+    font-size: 1.5rem;
+	vertical-align: middle;
+}
+/* #education{
+    border: 1px solid black;
+} */
+.edu-container{
+    /* border: 1px solid black; */
+    /* display: flex;
+    flex-direction: column; */
+    width: 75%;
+    padding: 1rem;
+    position: relative;
+}
+.edu-detail{
+    border: 1px solid black;
+    height: 10rem;
+    width: 40%; 
+    position: relative;
+    background-color: aliceblue;
+}
+.edu-detail:nth-child(2n)
+{
+ left: 50%;
+}
+.tim-cont{
+    position: absolute;
+    height: 35rem;
+    width: 0;
+    left: 45%;
+    top: 5%;
+    border: 2px dashed rgb(214, 22, 22);
+}
+.tim-div{
+    position: sticky;
+    top: 135px;
+    margin-left: -15px;
+}
+
+.tim-div i{
+    transform: rotate(180deg);
+    font-size: 2rem;
+}
+
+#contact {
+	background-color: #0abcf9;
+	background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+	color: white;
+	padding-bottom: 40px;
+}
+
+.contact-conatiner{
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.left,.right{
+    width: 40%;
+    /* border: 1px solid black; */
+
+}
+.left input,textarea{
+    max-width: 90%;
+	margin: 15px;
+	padding: 4px 10px;
+	border:transparent;
+	border-bottom: 2px solid white;
+	color:white;
+	background: transparent;
+	width: 90%;
+	line-height: 1.6;
+	font-size: 1.05rem;
+}
+.btn{
+    padding: 10px 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.f-w {
+   font-size: 1.2rem; 
+}
