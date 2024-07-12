@@ -1,0 +1,78 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 20%;
+    border-bottom: 2px solid red;
+    border-top: 2px solid blue;
+    border-left: 2px solid yellow;
+    border-right: 2px solid green;
+    
+    /* animation: vivo 1s ease-in-out 1s infinite alternate ; */
+    /* transition: all 1s ease-in-out; */
+    animation-name: vivo, nokia, mi;
+    animation-duration: 0.5s,0.5s,0.5s;
+    animation-timing-function: ease-in-out,ease-in-out,ease-in-out;
+    animation-iteration-count: infinite,infinite,infinite;
+    animation-direction: alternate,alternate,alternate;
+}
+@keyframes vivo {
+    from{
+        border-radius: 0%;
+    }
+    to{
+        border-radius: 50%;
+    }
+    
+}
+@keyframes nokia {
+    0%{
+        transform: rotate(0deg);
+    }
+    /* 25%{
+      transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(90deg);
+      }
+      75%{
+        transform: rotate(120deg);
+      } */
+      100%{
+        transform: rotate(360deg);
+      }
+    
+}
+@keyframes mi {
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    to{
+        height: 400px;
+        width: 400px;
+    }
+    
+}
+
+
+/* @keyframes vivo {
+    from{
+        border-radius: 0%;
+    }
+    to{
+       border-radius: 50%;
+    }
+    
+} */
+
+
+/* div:hover{
+    transform: rotate(90deg); 
+    transform: scale(2,2);
+    transform: translate(10%,10%);
+    height: 200px;
+    width: 200px;
+    background-color:red ;
+} */
+
