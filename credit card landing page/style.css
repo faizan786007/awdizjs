@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.upper {
+	background-color: black;
+	color: white;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+.midlist {
+	display: flex;
+	justify-content: space-around;
+}
+.midlist li {
+	list-style: none;
+	padding: 10px;
+	margin: 10px;
+	margin-right: 10px;
+}
+.logo {
+	margin-left: 10%;
+}
+.lastlist {
+	display: flex;
+}
+.lastlist li {
+	list-style: none;
+	padding: 10px;
+	margin: 10px;
+	margin-right: 10px;
+}
+.start_content {
+	position: relative;
+	height: 700px;
+	overflow: hidden;
+}
+.start_content h1 {
+	margin: 50px;
+
+	font-size: 80px;
+	font-weight: 600;
+}
+.start_content p {
+	margin: 50px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.start_content .black {
+	width: 60%;
+	position: absolute;
+	top: -100px;
+	right: 0;
+	/* z-index: 0; */
+	/* opacity: 0.3; */
+}
+.start_content .front {
+	width: 60%;
+	position: absolute;
+	top: -30px;
+	right: -190px;
+	/* opacity: 1; */
+}
+
+.getstart .img {
+	position: relative;
+	left: 30px;
+	top: 8px;
+}
+.number div {
+	display: inline;
+	font-size: 20px;
+	font-weight: 600;
+}
+.gray {
+	background-color: gray;
+}
+.gray ul {
+	display: flex;
+	height: 200px;
+	justify-content: space-around;
+	align-items: center;
+}
+.gray ul li {
+	list-style: none;
+	padding: 10px;
+}
+.payment {
+	display: flex;
+	justify-content: center;
+
+	height: 100vh;
+}
+.payment .right {
+	width: 50%;
+	height: fit-content;
+	/* border: 2px solid red; */
+	padding-top: 30px;
+	font-size: 80px;
+	margin-right: 40px;
+	margin-left: 20px;
+}
+.payment .left {
+	padding-top: 100px;
+	width: 50%;
+	/* border: 2px solid red; */
+	font-size: 20px;
+	margin-right: 40px;
+	margin-left: 20px;
+	height: fit-content;
+}
+.box {
+	display: flex;
+	justify-content: space-around;
+	margin-top: -100px;
+	/* border: 2px solid red; */
+}
+.box div {
+	width: 25%;
+	height: 50vh;
+	/* border: 2px solid red; */
+	background-color: gray;
+	opacity: 0.6;
+	/* padding-left: 100px;
+	padding-top: 50px; */
+	padding: 50px 50px;
+	margin-bottom: 50px;
+}
+.box div h3 {
+	font-size: 30px;
+}
+.up {
+	position: relative;
+	margin-top: -50px;
+}
+.whitepart {
+	padding-top: 50px;
+	height: fit-content;
+	background-color: white;
+	color: black;
+	/* position: relative;
+	border: 2px solid red; */
+}
+.whitepart h1,
+p {
+	text-align: center;
+}
+.whitepart h1 {
+	font-size: 60px;
+}
+.whitepart p {
+	margin-top: 20px;
+	font-size: 20px;
+}
+.whitepart .vcard {
+	/* position: absolute; */
+	position: relative;
+	left: 20%;
+	width: 60%;
+	top: -30px;
+}
+.customers {
+	height: fit-content;
+}
+.customers h1,
+p {
+	text-align: center;
+}
+.customers h1 {
+	font-size: 60px;
+}
+.customers p {
+	margin-top: 30px;
+	font-size: 20px;
+}
+.gridcontainer {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	gap: 50px;
+	margin-top: 10%;
+}
+.griditem {
+	background-color: rgba(70, 49, 49, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	max-width: 500px;
+}
+.griditem img {
+	margin-right: 250px;
+}
+
+.rectangle {
+	width: 100%;
+	height: 400px;
+}
+.recbottom {
+	position: relative;
+	bottom: 300px;
+}
+.rectop {
+	position: relative;
+	top: 100px;
+}
+.dialeft,
+.diaright {
+	position: relative;
+	height: 500px;
+	bottom: 700px;
+}
+.dialeft {
+	left: 800px;
+}
+.diaright {
+	right: 500px;
+}
+.textform {
+	position: absolute;
+	top: 4000px;
+	left: 20%;
+}
+.lowerdown {
+	display: flex;
+	/* border: 2px solid red; */
+	justify-content: space-between;
+	/* justify-content: center; */
+}
+.lowerdown ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 400px;
+}
+.lowerdown ul li {
+	list-style: none;
+	margin-right: 50px;
+}
+.lowerdown img {
+	margin-right: 100px;
+}
+.lowerdown {
+	position: relative;
+	bottom: 500px;
+}

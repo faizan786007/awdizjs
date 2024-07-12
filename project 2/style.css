@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #f0f4f5;
+	overflow: hidden;
+}
+nav {
+	margin-top: 10px;
+	/* border: 2px solid black; */
+	display: flex;
+	justify-content: space-between;
+}
+nav img {
+	margin-left: 40px;
+}
+.logo {
+	padding: 10px;
+}
+nav ul {
+	display: flex;
+	/* border: 2px solid red; */
+	margin-right: 50px;
+}
+nav ul li {
+	list-style: none;
+	/* border: 2px solid red; */
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size: 20px;
+	padding: 20px 10px;
+	font-weight: 700;
+}
+
+/* main section */
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid black; */
+	height: 1000px;
+}
+.left,
+.right {
+	position: relative;
+	width: 50%;
+
+	/* border: 2px solid black; */
+}
+.right {
+	height: 100vh;
+	position: relative;
+	top: -15%;
+}
+.left {
+	padding: 40px;
+	top: -22%;
+	margin-left: 20px;
+}
+.left h1 {
+	font-weight: 800;
+	font-size: 70px;
+}
+.left p {
+	font-size: 20px;
+	margin-top: 20px;
+}
+button {
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 20px 40px;
+	font-weight: 600;
+	border: none;
+	border-radius: 30px;
+	background-color: green;
+	color: white;
+}
+.btmangle {
+	position: absolute;
+	right: 7%;
+	top: 80%;
+}
+.mouse {
+	position: absolute;
+	right: 0%;
+	top: 90%;
+}
+.stetho {
+	position: absolute;
+	left: 30%;
+	top: -10%;
+	width: 90%;
+}
+.green {
+	position: absolute;
+	width: 70%;
+	right: 0%;
+	top: -2%;
+}
+.yellow {
+	position: absolute;
+	width: 60%;
+	right: 0%;
+	top: 4%;
+}
+.doctor {
+	position: absolute;
+	height: 90%;
+	right: 0%;
+	top: -10%;
+}
+.contact{
+	border: 5px solid black;
+}

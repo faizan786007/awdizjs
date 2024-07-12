@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	/* border: 2px solid red; */
+	overflow: hidden;
+}
+section {
+	/* border: 2px solid black; */
+	color: aliceblue;
+}
+section:nth-last-child(2n) {
+	background-color: white;
+	color: black;
+}
+section:nth-last-child(2n + 1) {
+	background-color: black;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	/* border: 2px solid white; */
+	margin-top: 10px;
+}
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li {
+	list-style: none;
+	padding: 5px;
+	margin-right: 20px;
+}
+button {
+	/* height: 20px; */
+	margin-right: 80px;
+	margin-top: 10px;
+	padding: 1px 30px;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	background-color: blue;
+}
+img {
+	margin-left: 20px;
+}
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid white; */
+}
+.content .left,
+.right {
+	/* border: 2px solid white; */
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.content .left h1 {
+	font-size: 55px;
+}
+.content .left {
+	width: 40%;
+	margin-top: -60px;
+	margin-left: 80px;
+}
+.content .left p {
+	font-size: 20px;
+	margin-top: 20px;
+	line-height: 30px;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+.content .left button {
+	padding: 15px 30px;
+	font-size: 15px;
+}
+.rightbtn {
+	background-color: black;
+	/* border: 1px solid white; */
+}
+.content .right {
+	padding: 40px;
+	margin-top: 60px;
+	padding-bottom: 100px;
+}
+.content .right img {
+	height: 50%;
+	width: 90%;
+}
+.logobar ul {
+	display: flex;
+	justify-content: center;
+	/* border: 2px solid red; */
+}
+.logobar ul li {
+	list-style: none;
+	padding: 40px 10px;
+	margin-left: 80px;
+	margin-right: 30px;
+}
+.logocontainer {
+	display: flex;
+
+	justify-content: center;
+	/* border: 2px solid red; */
+}
+.logocontainer div {
+	/* border: 2px solid red; */
+	margin-left: 70px;
+}
+.logocontainer .white,
+.black {
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+}
+.logocontainer .black {
+	background-color: black;
+	color: white;
+	position: relative;
+	top: -40px;
+}
+.buttoncontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid red; */
+}
+.buttoncontainer .leftbtn,
+.rightbtnnew {
+	/* border: 2px solid red; */
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+.rightbtnnew li::before {
+	content: "•";
+	font-size: 20px;
+	/* vertical-align: top; */
+	padding-right: 7px;
+}
+.leftbtn div {
+	border: 2px solid gray;
+	border-radius: 40px;
+	padding: 15px 20px;
+	margin: 10px;
+	font-size: 22px;
+}
+.rightbtnnew div {
+	/* border: 2px solid green; */
+	background-color: rgb(77, 69, 69);
+	border-radius: 40px;
+	padding: 5px 10px;
+	margin: 9px;
+	font-size: 18px;
+}
+.buttoncontainer .rightbtnnew {
+	border-radius: 20px;
+	background-color: black;
+	color: white;
+}
+.arrow {
+	display: flex;
+	position: relative;
+	bottom: 120px;
+	justify-content: space-between;
+}
+.container {
+	/* border: 2px solid white; */
+	display: flex;
+	justify-content: center;
+	padding-bottom: 90px;
+	/* height: 200px; */
+}
+.container div {
+	/* border: 2px solid white; */
+	width: 20%;
+	border-radius: 20px;
+	margin-left: 40px;
+}
+.container div ul li {
+	list-style: none;
+	padding: 10px;
+}
+.btmcontainer {
+	/* border: 2px solid white; */
+	display: flex;
+	justify-content: center;
+	border-radius: 30px;
+	background-color: gray;
+	margin-top: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.btmcontainer div {
+	/* border: 2px solid rgb(136, 7, 7); */
+	width: 50%;
+	margin: 25px;
+
+	padding: 10px;
+	padding-left: 20px;
+	padding-top: 15px;
+	border-radius: 30px;
+	background-color: rgb(95, 86, 86);
+}
+.addinfo {
+	display: flex;
+	justify-content: space-around;
+	margin: 0px 80px;
+}
+.gap {
+	margin: 5px;
+	padding: 5px;
+}
+.extragap {
+	margin-bottom: 15px;
+}
+.textcontainer1 {
+	display: flex;
+	justify-content: center;
+}
+.textcontainer1 div {
+	/* border: 2px solid red; */
+	width: 50%;
+	padding: 30px;
+	margin: 30px;
+}
+.textcontainer2 {
+	display: flex;
+	justify-content: center;
+}
+.textcontainer2 div {
+	/* border: 2px solid red; */
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	width: 50%;
+	padding: 30px;
+	margin: 30px;
+}
+/* .viewpoint {
+	display: flex;
+	flex-direction: column;
+} */
+.starlist {
+	position: relative;
+	height: 25px;
+}
+.starlist img {
+	position: absolute;
+	top: 0;
+	left: -20px;
+}
+.relative {
+	position: relative;
+	left: -20px;
+}
