@@ -53,14 +53,12 @@ body, html {
 }
 
 .content {
-    background-color: rgb(0,0,0,0.2);
-    top: -50%;
-    left: -50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    padding: 20px;
-    position:absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     color: white;
+    background: rgba(0, 0, 0,0.2);
     text-align: center;
-    z-index: 1; /* Ensures the text is above the background */
+    z-index: 1;
 }
